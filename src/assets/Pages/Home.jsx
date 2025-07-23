@@ -1,8 +1,7 @@
 import React from 'react'
 
 import { Link } from 'react-router-dom'
-import Navbar from '../Components/navbar'
-import Footer from '../Components/Footer'
+
 import WeatherApp from '../Components/Weather'
 import { ThemeProvider } from '../../context/ThemeContext'
 import NewsApp from '../Components/News'
