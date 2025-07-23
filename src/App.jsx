@@ -13,9 +13,8 @@ const App = () => {
     document.documentElement.classList.toggle("dark", theme=== "dark");
   }, [theme]);
   return (
-    <div 
-    className="flex flex-col min-h-screen font-serif bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow p-4" >
-     
+    <div className="flex flex-col min-h-screen font-serif bg-pink-200 dark:bg-green-200 text-green-900 dark:text-pink-900 shadow p-4 ">
+
       
       <Navbar/>
        <AppRouter/>

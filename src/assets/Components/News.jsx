@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const NEWS_API_KEY = import.meta.env.VITE_NEWS_API_KEY;
+const pagesize=12;
 
 const NewsApp = () => {
   const [query, setQuery] = useState("");
