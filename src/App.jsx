@@ -4,7 +4,9 @@ import Footer from './assets/Components/Footer';
 
 import UseTheme from './hooks/UseTheme';
 import AppRouter from './Routes/AppRouter';
-import Navbar from './assets/Components/navbar';
+import Navbar from './assets/Components/Nav';
+
+
 
 
 const App = () => {
